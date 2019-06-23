@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/income_tax_calc/precache-manifest.eab30936459062317391ca546eb873d2.js"
+  "/income_tax_calc/precache-manifest.d42de44f5a319447ce02a9795b110210.js"
 );
 
 self.addEventListener('message', (event) => {

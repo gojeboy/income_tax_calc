@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/income_tax_calc/static/css/main.72a172cd.chunk.css",
-    "main.js": "/income_tax_calc/static/js/main.14209910.chunk.js",
-    "main.js.map": "/income_tax_calc/static/js/main.14209910.chunk.js.map",
+    "main.js": "/income_tax_calc/static/js/main.8ef8900a.chunk.js",
+    "main.js.map": "/income_tax_calc/static/js/main.8ef8900a.chunk.js.map",
     "runtime~main.js": "/income_tax_calc/static/js/runtime~main.3642bb06.js",
     "runtime~main.js.map": "/income_tax_calc/static/js/runtime~main.3642bb06.js.map",
     "static/js/2.a0aafeea.chunk.js": "/income_tax_calc/static/js/2.a0aafeea.chunk.js",
     "static/js/2.a0aafeea.chunk.js.map": "/income_tax_calc/static/js/2.a0aafeea.chunk.js.map",
     "index.html": "/income_tax_calc/index.html",
-    "precache-manifest.eab30936459062317391ca546eb873d2.js": "/income_tax_calc/precache-manifest.eab30936459062317391ca546eb873d2.js",
+    "precache-manifest.d42de44f5a319447ce02a9795b110210.js": "/income_tax_calc/precache-manifest.d42de44f5a319447ce02a9795b110210.js",
     "service-worker.js": "/income_tax_calc/service-worker.js",
     "static/css/main.72a172cd.chunk.css.map": "/income_tax_calc/static/css/main.72a172cd.chunk.css.map"
   }
