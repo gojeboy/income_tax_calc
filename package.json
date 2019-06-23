@@ -2,12 +2,24 @@
   "name": "income_tax_calc",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://gojeboy.github.io/income_tax_calc",
   "dependencies": {
+    "@material-ui/core": "^4.1.1",
+    "bootstrap": "^4.3.1",
+    "gh-pages": "^2.0.1",
+    "prop-types": "^15.7.2",
     "react": "^16.8.6",
+    "react-bootstrap": "^1.0.0-beta.9",
     "react-dom": "^16.8.6",
-    "react-scripts": "3.0.1"
+    "react-number-format": "^4.0.8",
+    "react-redux": "^7.1.0",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "3.0.1",
+    "redux": "^4.0.1",
+    "redux-thunk": "^2.3.0"
   },
   "scripts": {
+    "deploy": "npm run build&&gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
