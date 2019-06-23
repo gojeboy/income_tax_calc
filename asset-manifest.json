@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/income_tax_calc/static/css/main.72a172cd.chunk.css",
-    "main.js": "/income_tax_calc/static/js/main.8ef8900a.chunk.js",
-    "main.js.map": "/income_tax_calc/static/js/main.8ef8900a.chunk.js.map",
-    "runtime~main.js": "/income_tax_calc/static/js/runtime~main.3642bb06.js",
-    "runtime~main.js.map": "/income_tax_calc/static/js/runtime~main.3642bb06.js.map",
-    "static/js/2.a0aafeea.chunk.js": "/income_tax_calc/static/js/2.a0aafeea.chunk.js",
-    "static/js/2.a0aafeea.chunk.js.map": "/income_tax_calc/static/js/2.a0aafeea.chunk.js.map",
-    "index.html": "/income_tax_calc/index.html",
-    "precache-manifest.d42de44f5a319447ce02a9795b110210.js": "/income_tax_calc/precache-manifest.d42de44f5a319447ce02a9795b110210.js",
-    "service-worker.js": "/income_tax_calc/service-worker.js",
-    "static/css/main.72a172cd.chunk.css.map": "/income_tax_calc/static/css/main.72a172cd.chunk.css.map"
+    "main.css": "/incometaxcalc/static/css/main.72a172cd.chunk.css",
+    "main.js": "/incometaxcalc/static/js/main.5dd2d09a.chunk.js",
+    "main.js.map": "/incometaxcalc/static/js/main.5dd2d09a.chunk.js.map",
+    "runtime~main.js": "/incometaxcalc/static/js/runtime~main.43d62183.js",
+    "runtime~main.js.map": "/incometaxcalc/static/js/runtime~main.43d62183.js.map",
+    "static/js/2.a0aafeea.chunk.js": "/incometaxcalc/static/js/2.a0aafeea.chunk.js",
+    "static/js/2.a0aafeea.chunk.js.map": "/incometaxcalc/static/js/2.a0aafeea.chunk.js.map",
+    "index.html": "/incometaxcalc/index.html",
+    "precache-manifest.155d7c99e00654186f5958abfb17e4ce.js": "/incometaxcalc/precache-manifest.155d7c99e00654186f5958abfb17e4ce.js",
+    "service-worker.js": "/incometaxcalc/service-worker.js",
+    "static/css/main.72a172cd.chunk.css.map": "/incometaxcalc/static/css/main.72a172cd.chunk.css.map"
   }
 }
