@@ -119,7 +119,7 @@ class TaxInput extends Component {
             type="number"
           />
           <Moneyinput
-            label="Access cash from rebate "
+            label="Excess cash from rebate "
             id="excess"
             name="excess"
             value={excess}
