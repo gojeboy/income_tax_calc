@@ -31,8 +31,11 @@ class Inputs extends Component {
     } = this.state;
 
     // console.log("This issa state: ", this.state);
+
+    console.log(this.state);
+
     return (
-      <FormControl className="form-container">
+      <FormControl fullWidth={true}>
         <div className="card-header">Income and Retirement Savings</div>
 
         <Moneyinput

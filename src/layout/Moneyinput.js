@@ -28,7 +28,7 @@ Moneyinput.propTypes = {
   label: PropTypes.string.isRequired,
   id: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
-  value: PropTypes.string.isRequired,
+  value: PropTypes.number.isRequired,
   type: PropTypes.string.isRequired,
   onChange: PropTypes.func
 };

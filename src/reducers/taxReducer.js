@@ -1,4 +1,4 @@
-import { CALCULATE_TAX_RETURN } from "../actions/type";
+import { CALCULATE_TAX_RETURN, BUDGET_EXPENSES } from "../actions/type";
 
 const initialState = {
   monthly_user_info: {
@@ -16,6 +16,12 @@ export default function(state = initialState, action) {
       return {
         ...state,
         monthly_user_info: action.payload
+      };
+    case BUDGET_EXPENSES:
+      console.log(action);
+      return {
+        ...state,
+        net_income_savings: action.payload
       };
 
     default:

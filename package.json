@@ -2,7 +2,7 @@
   "name": "incometaxcalc",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://gojeboy.github.io/income_tax_calc",
+  "homepage": "https://gojeboy.github.io/incometaxcalc",
   "dependencies": {
     "@material-ui/core": "^4.1.1",
     "bootstrap": "^4.3.1",

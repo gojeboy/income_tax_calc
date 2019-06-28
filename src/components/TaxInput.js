@@ -2,12 +2,12 @@ import React, { Component, Fragment, lazy, Suspense } from "react";
 import { calculate_tax_bracket } from "../computations/computations";
 import { connect } from "react-redux";
 import Inputs from "./Inputs";
-import NumberFormat from "react-number-format";
 import PropTypes from "prop-types";
 import { ANNUAL_TFSA_LIMIT } from "../constants/contants";
-import MoneyOutput from "../layout/MoneyOutput";
 import Moneyinput from "../layout/Moneyinput";
 import FormControl from "@material-ui/core/FormControl";
+import { budget_expenses } from "../actions/taxAction";
+
 class TaxInput extends Component {
   calculate_tfsa_constribution = rebate => {
     if (ANNUAL_TFSA_LIMIT - rebate < 0) {
@@ -24,10 +24,14 @@ class TaxInput extends Component {
       };
     }
   };
+
   render() {
     const { income_info_input } = this.props;
 
     const tax_bracket = calculate_tax_bracket(income_info_input);
+
+    this.props.budget_expenses(tax_bracket);
+    console.log(tax_bracket);
     const {
       original_paye,
       deduceted_paye,
@@ -45,16 +49,11 @@ class TaxInput extends Component {
     } = new_tfsa_saving;
 
     return (
-      <div>
+      <div style={{ paddingTop: "1em" }}>
         <Inputs income_info={income_info_input} />
         <h2>Tax Calculator</h2>
-        {/* <MoneyOutput
-          label="Net Income: "
-          value={original_income_per_month}
-          prefix="R"
-          suffix=""
-        /> */}
-        <FormControl className="form-container">
+
+        <FormControl fullWidth={true}>
           <Moneyinput
             label="Net Income: "
             id="net_salary"
@@ -135,11 +134,14 @@ class TaxInput extends Component {
 const mapStateToProps = state => ({
   income_info_input: state.tax.monthly_user_info
 });
+
 TaxInput.propTypes = {
   income_info_input: PropTypes.object.isRequired,
-  calculate_tax_bracket: PropTypes.func.isRequired
+  calculate_tax_bracket: PropTypes.func.isRequired,
+  budget_expenses: PropTypes.func.isRequired
 };
+
 export default connect(
   mapStateToProps,
-  { calculate_tax_bracket }
+  { calculate_tax_bracket, budget_expenses }
 )(TaxInput);
