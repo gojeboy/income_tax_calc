@@ -58,56 +58,56 @@ class TaxInput extends Component {
             label="Net Income: "
             id="net_salary"
             name="net_salary"
-            value={original_income_per_month}
+            value={original_income_per_month.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="Tax Paid + UIF: "
             id="paye_uif"
             name="paye_uif"
-            value={original_paye}
+            value={original_paye.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="Tax Paid + UIF: "
             id="paye_uif"
             name="paye_uif"
-            value={original_paye}
+            value={original_paye.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="Tax Paid + UIF You were supposed to pay: "
             id="deduceted_paye"
             name="deduceted_paye"
-            value={deduceted_paye}
+            value={deduceted_paye.toFixed(2)}
             type="number"
           />
           <Moneyinput
-            label="Because your retirement savings rate is "
+            label="Because your retirement savings rate is %"
             id="retirement_savings_rate"
             name="retirement_savings_rate"
-            value={retirement_savings_rate}
+            value={retirement_savings_rate.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="Your tax rebate will be: "
             id="rebate"
             name="rebate"
-            value={rebate}
+            value={rebate.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="TFSA constribution from rebate: "
             id="tfsa_conrtibution_from_rebate"
             name="tfsa_conrtibution_from_rebate"
-            value={tfsa_conrtibution_from_rebate}
+            value={tfsa_conrtibution_from_rebate.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="TFSA constribution allowance you still have remaining monthly: "
             id="tfsa_conrtibution_remaining_pm"
             name="tfsa_conrtibution_remaining_pm"
-            value={tfsa_conrtibution_remaining / 12}
+            value={(tfsa_conrtibution_remaining / 12).toFixed(2)}
             type="number"
           />
           OR
@@ -115,14 +115,14 @@ class TaxInput extends Component {
             label="For the year: "
             id="tfsa_conrtibution_remaining"
             name="tfsa_conrtibution_remaining"
-            value={tfsa_conrtibution_remaining}
+            value={tfsa_conrtibution_remaining.toFixed(2)}
             type="number"
           />
           <Moneyinput
             label="Excess cash from rebate "
             id="excess"
             name="excess"
-            value={excess}
+            value={excess.toFixed(2)}
             type="number"
           />
         </FormControl>

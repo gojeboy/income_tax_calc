@@ -1,2 +1,5 @@
 export const CALCULATE_TAX_RETURN = "CALCULATE_TAX_RETURN";
 export const BUDGET_EXPENSES = "BUDGET_EXPENSES";
+export const ADD_EXPENSE = "ADD_EXPENSE";
+export const ADD_SAVINGS = "ADD_SAVINGS";
+export const ADD_DEBT = "ADD_DEBT";
